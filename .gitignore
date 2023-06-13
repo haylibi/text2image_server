@@ -3,4 +3,4 @@ VENV
 .DS_Store
 .env
 .vscode
-server.py
+setup.py
