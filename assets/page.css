@@ -1,0 +1,29 @@
+
+html {
+    background-color: rgb(49,51,56);
+}
+body {
+    background-color: rgb(49,51,56);
+    color: #fff;
+    font-family: 'Gill Sans MT';
+}
+.grid_1x2{
+    display: flex;
+    width:50%;
+    
+}
+.gridchild {
+    border:#fff;
+    border-style: solid;
+    border-width: 1pt;
+    margin-right:auto;
+    margin-left:auto;
+    width:50%;
+}
+
+.gridchild img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
