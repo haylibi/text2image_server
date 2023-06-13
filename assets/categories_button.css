@@ -1,0 +1,18 @@
+#livraria {
+    position: absolute;
+    left: 275px !important;
+    top: 323px;
+    height: 31px;
+    border-style:none !important;
+    width:151px;
+    z-index: 1000;
+}
+#papelaria {
+    position: absolute;
+    left: 425px !important;
+    top: 323px;
+    height: 31px;
+    border-style:none !important;
+    width:151px;
+    z-index: 1000;
+}

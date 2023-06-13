@@ -1,0 +1,54 @@
+.accordion .menu {
+    background-color: rgb(235, 133, 1);
+    color: white;
+    cursor: pointer;
+    padding: 0px;
+    padding-left: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    margin-top: 4px;
+    border-radius: 8px;
+    display: block;
+}
+.accordion .menu:hover{
+    background-color:rgb(255, 187, 0);
+}
+.accordion .panel {
+    background-color: #FFFFFF;
+    color: #000000;
+    overflow: hidden
+}
+.accordion .open {
+    display: block
+}
+.accordion .close {
+    display: none
+}
+.accordion .active {
+    background-color: orange;
+    color: #fff
+}
+.accordion .arrow {
+    float: right;
+    display: block
+}
+.accordion .darrow {
+    display: none
+}
+.accordion .active .darrow {
+    display: block
+}
+.accordion .active .rarrow {
+    display: none
+}
+.accordion .panel a {
+    display: block;
+    background: #808080;
+    color: #FFFFFF;
+    padding: 5px;
+    margin: 3px;
+    width: 100%;
+    text-decoration: none
+}
